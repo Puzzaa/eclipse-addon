@@ -1,9 +1,9 @@
-package com.example.addon;
+package eclipse;
 
-import com.example.addon.commands.CommandExample;
-import com.example.addon.hud.HudExample;
-import com.example.addon.modules.ModuleExample;
 import com.mojang.logging.LogUtils;
+import eclipse.commands.CommandExample;
+import eclipse.hud.HudExample;
+import eclipse.modules.ModuleExample;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
 import meteordevelopment.meteorclient.systems.commands.Commands;
 import meteordevelopment.meteorclient.systems.hud.Hud;
@@ -38,6 +38,6 @@ public class Addon extends MeteorAddon {
 
     @Override
     public String getPackage() {
-        return "com.example.addon";
+        return "eclipse";
     }
 }

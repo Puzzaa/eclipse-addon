@@ -1,20 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "eclipse-addon",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for the Meteor addons.",
+  "name": "Eclipse Addon",
+  "description": "A pvp-based addon for Meteor Client.",
   "authors": [
-    "seasnail"
+    "RickyTheRacc"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/RickyTheRacc/eclipse-addon",
+    "discord": "https://discord.gg/23nzFyxWxq"
   },
-  "icon": "assets/template/icon.png",
+  "icon": "assets/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.Addon"
+      "eclipse.Addon"
     ]
   },
   "mixins": [
