@@ -5,7 +5,8 @@
   "name": "Eclipse Addon",
   "description": "A pvp-based addon for Meteor Client.",
   "authors": [
-    "RickyTheRacc"
+    "RickyTheRacc",
+    "Puzza"
   ],
   "contact": {
     "repo": "https://github.com/RickyTheRacc/eclipse-addon",
